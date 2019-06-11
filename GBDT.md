@@ -1,4 +1,4 @@
- GBDT(Gradient Boosting Decision Tree)(此处讨论的形式针对的是回归问题,分类问题也类似)  
+ GBDT(Gradient Boosting Decision Tree)(此处讨论的形式针对的是回归问题)  
  1.目标函数:(不妨设样本数有n个,标签值为y_i(每个标签会对应一个特征x_i),模型预测值为\hat{y_i})  
  &emsp;&emsp;&emsp;&emsp;<a href="https://www.codecogs.com/eqnedit.php?latex=(1/n)*\sum_{i=1}^n(\hat{y_i}&space;-&space;y_i)^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(1/n)*\sum_{i=1}^n(\hat{y_i}&space;-&space;y_i)^2" title="(1/n)*\sum_{i=1}^n(\hat{y_i} - y_i)^2" /></a>  
  
