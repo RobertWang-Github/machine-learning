@@ -12,7 +12,7 @@
 
 tips:  
 &emsp;&emsp;所谓“包外估计”(out of bag estimate)即构造训练集时,进行N次有放回抽样,某个样本不进入该构造样本集的概率.
-<a href="https://www.codecogs.com/eqnedit.php?latex=$\lim_{N&space;\to&space;\infty}(1-1/N)^N=1/e\approx36.8\%$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\lim_{N&space;\to&space;\infty}(1-1/N)^N=1/e\approx36.8\%$" title="$\lim_{N \to \infty}(1-1/N)^N=1/e\approx36.8\%$" /></a>  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<a href="https://www.codecogs.com/eqnedit.php?latex=$\lim_{N&space;\to&space;\infty}(1-1/N)^N=1/e\approx36.8\%$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$\lim_{N&space;\to&space;\infty}(1-1/N)^N=1/e\approx36.8\%$" title="$\lim_{N \to \infty}(1-1/N)^N=1/e\approx36.8\%$" /></a>  
 
 
 
