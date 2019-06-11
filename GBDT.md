@@ -11,7 +11,10 @@
  3.GBDT独特部分  
  &emsp;&emsp;GBDT中的弱分类器都是Decision Tree（且是Cart-Tree）.  
  
+ 4.GBDT的分类问题  
+ &emsp;&emsp;此时模型输出的值为概率值,即样本为不同类的概率.  
  
  
- 4.常用搭配GBDT+LR  
-  &emsp;&emsp;
+ 5.常用搭配GBDT+LR  
+  &emsp;&emsp;基于样本集对GBDT训练->再将样本导入GBDT,拿到所有样本所处的叶子节点编码->将该编码one-hot之后导入LR(logistc regression)再次训练
+  ->对数据进行预测
