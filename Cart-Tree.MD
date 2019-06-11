@@ -9,13 +9,16 @@
 
 
 Cart-Tree回归的目标函数  
-离散分布p的Gini系数（集合D可以看做是样本集,其中的元素可以计算经验分布,进而可以计算Gini系数）   
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;$Gini(p)&space;=&space;\sum_{k=0}^K{p_k}(1-p_k)=1&space;-&space;\sum_{k=1}^K{p_k^2}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;$Gini(p)&space;=&space;\sum_{k=0}^K{p_k}(1-p_k)=1&space;-&space;\sum_{k=1}^K{p_k^2}$" title="$Gini(p) = \sum_{k=0}^K{p_k}(1-p_k)=1 - \sum_{k=1}^K{p_k^2}$" /></a>
+&emsp;&emsp;离散分布p的Gini系数（集合D可以看做是样本集,其中的元素可以计算经验分布,进而可以计算Gini系数）   
+&emsp;&emsp;<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;$Gini(p)&space;=&space;\sum_{k=0}^K{p_k}(1-p_k)=1&space;-&space;\sum_{k=1}^K{p_k^2}$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;$Gini(p)&space;=&space;\sum_{k=0}^K{p_k}(1-p_k)=1&space;-&space;\sum_{k=1}^K{p_k^2}$" title="$Gini(p) = \sum_{k=0}^K{p_k}(1-p_k)=1 - \sum_{k=1}^K{p_k^2}$" /></a>
 
-一个集合按照特征A分裂为两个集合D_1,D_2时Gini系数定义如下    
-<a href="https://www.codecogs.com/eqnedit.php?latex=$Gini(D,A)&space;=&space;({D_1}/{D})Gini(D_1)&space;&plus;&space;({D_2}/{D})Gini(D_2)$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$Gini(D,A)&space;=&space;({D_1}/{D})Gini(D_1)&space;&plus;&space;({D_2}/{D})Gini(D_2)$" title="$Gini(D,A) = ({D_1}/{D})Gini(D_1) + ({D_2}/{D})Gini(D_2)$" /></a>
+&emsp;&emsp;一个集合按照特征A分裂为两个集合D_1,D_2时Gini系数定义如下    
+&emsp;&emsp;<a href="https://www.codecogs.com/eqnedit.php?latex=$Gini(D,A)&space;=&space;({D_1}/{D})Gini(D_1)&space;&plus;&space;({D_2}/{D})Gini(D_2)$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$Gini(D,A)&space;=&space;({D_1}/{D})Gini(D_1)&space;&plus;&space;({D_2}/{D})Gini(D_2)$" title="$Gini(D,A) = ({D_1}/{D})Gini(D_1) + ({D_2}/{D})Gini(D_2)$" /></a>
+&emsp;&emsp;分裂时极小化Gini
 
 
 
 
 Cart-Tree分类的目标函数  
+&emsp;&emsp;公式暂略
+&emsp;&emsp;就是按照特征和切分点将样本分成两部分,这两部分中样本和它们的均值之差的和要最小.
