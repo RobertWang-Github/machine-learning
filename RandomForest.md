@@ -4,7 +4,7 @@
 &emsp;&emsp;1.bootstrap sample  
 &emsp;&emsp;&emsp;&emsp;设训练集大小(样本数)为N，随机且有放回地从训练集中的抽取N个训练样本（这种采样方式称为bootstrap sample方法）,如此构造M个训练集;  
 
-&emsp;&emsp;2.
+&emsp;&emsp;2.  
 &emsp;&emsp;&emsp;&emsp;在每个构造的训练集(共M个)上,随机选择K个特征,用这K个特征生成一个Cart-Tree,不进行剪枝,让每个树最大生长至指定深度h.  
 
 &emsp;&emsp;3.  
