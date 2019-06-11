@@ -9,4 +9,9 @@
  (即所有样本的标签值变成了F_1(x_i)-y_i),依次类推.注意,各个分类器的参数是独立训练的.  
  
  3.GBDT独特部分  
- &emsp;&emsp;GBDT中的弱分类器都是Decision Tree.
+ &emsp;&emsp;GBDT中的弱分类器都是Decision Tree（且是Cart-Tree）.  
+ 
+ 
+ 
+ 4.常用搭配GBDT+LR  
+  &emsp;&emsp;
